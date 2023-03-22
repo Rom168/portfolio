@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "romain-portfolio"
+  },
+  "targets": {
+    "romain-portfolio": {
+      "hosting": {
+        "prod": [
+          "romain-portfolio"
+        ]
+      }
+    }
   }
 }
