@@ -1,3 +1,7 @@
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ExperiencesComponent } from './pages/experiences/experiences.component';
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,7 +16,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ExperiencesComponent,
+    ContactComponent,
+    HomeComponent
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

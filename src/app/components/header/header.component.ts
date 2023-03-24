@@ -1,4 +1,6 @@
+
 import { Component, OnInit } from '@angular/core';
+import { NavigRoutes } from 'src/app/enum/routes';
 
 
 @Component({
@@ -7,12 +9,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 
+
+
+
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  expRoute:string = '';
+  contactRoute:string = '';
+  homeRoute: string = '';
+
+  constructor() {
+    this.expRoute = NavigRoutes.Experiences;
+    this.contactRoute = NavigRoutes.Contact;
+    this.homeRoute = NavigRoutes.Home;
+
+   }
 
   ngOnInit() {
   }
+
 
 }
 
