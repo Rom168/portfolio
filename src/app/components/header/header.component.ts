@@ -17,11 +17,17 @@ export class HeaderComponent implements OnInit {
   expRoute:string = '';
   contactRoute:string = '';
   homeRoute: string = '';
+  careerRoute: string = '';
+  aboutRoute: string ='';
+  interestRoute: string ='';
 
   constructor() {
     this.expRoute = NavigRoutes.Experiences;
     this.contactRoute = NavigRoutes.Contact;
     this.homeRoute = NavigRoutes.Home;
+    this.aboutRoute = NavigRoutes.About;
+    this.careerRoute = NavigRoutes.Career;
+    this.interestRoute = NavigRoutes.Interests;
 
    }
 

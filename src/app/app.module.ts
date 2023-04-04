@@ -16,6 +16,9 @@ import {AngularFireModule} from "@angular/fire/compat";
 import {AngularFireStorageModule} from "@angular/fire/compat/storage";
 
 import {firebaseConfig} from "../environnement/environnement";
+import {AboutComponent} from "./pages/about/about.component";
+import {CareerComponent} from "./pages/career/career.component";
+import {InterestComponent} from "./pages/interest/interest.component";
 
 
 // Initialize Firebase
@@ -26,7 +29,10 @@ import {firebaseConfig} from "../environnement/environnement";
     HeaderComponent,
     ExperiencesComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    CareerComponent,
+    InterestComponent
 
   ],
   imports: [
