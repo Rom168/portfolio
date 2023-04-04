@@ -11,7 +11,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {AngularFireModule} from "@angular/fire/compat";
 
+import {AngularFireStorageModule} from "@angular/fire/compat/storage";
+
+import {firebaseConfig} from "../environnement/environnement";
+
+
+// Initialize Firebase
 
 @NgModule({
   declarations: [
@@ -26,7 +33,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
-
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireStorageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
