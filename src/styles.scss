@@ -37,3 +37,12 @@ $portfolio-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+//importation de la bibliothèque font Awesome
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+//installation de Material
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+

@@ -19,6 +19,7 @@ import {firebaseConfig} from "../environnement/environnement";
 import {AboutComponent} from "./pages/about/about.component";
 import {CareerComponent} from "./pages/career/career.component";
 import {InterestComponent} from "./pages/interest/interest.component";
+import {MatIconModule} from "@angular/material/icon";
 
 
 // Initialize Firebase
@@ -40,7 +41,8 @@ import {InterestComponent} from "./pages/interest/interest.component";
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireStorageModule
+    AngularFireStorageModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
