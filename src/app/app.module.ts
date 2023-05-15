@@ -20,6 +20,7 @@ import {AboutComponent} from "./pages/about/about.component";
 import {CareerComponent} from "./pages/career/career.component";
 import {InterestComponent} from "./pages/interest/interest.component";
 import {MatIconModule} from "@angular/material/icon";
+import {FooterComponent} from "./components/footer/footer.component";
 
 
 // Initialize Firebase
@@ -33,7 +34,9 @@ import {MatIconModule} from "@angular/material/icon";
     HomeComponent,
     AboutComponent,
     CareerComponent,
-    InterestComponent
+    InterestComponent,
+    FooterComponent
+
 
   ],
   imports: [

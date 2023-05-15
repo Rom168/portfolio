@@ -5,6 +5,27 @@
   border-style: solid;
 
 
+
+}
+
+.content {
+  min-height: 100%;
+  margin-bottom: -50px;
+
+}
+
+.foot, .push {
+  height: 50px;
+}
+
+
+.foot {
+  background-color: #A3232B;
+}
+
+
+.push {
+  clear: both;
 }
 
 
