@@ -9,7 +9,11 @@ import {InterestComponent} from "./pages/interest/interest.component";
 
 
 const routes: Routes = [
-
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
   {
     path: 'home',
     component: HomeComponent

@@ -4,6 +4,7 @@
   font-size: 24px;
   padding: 20px;
   text-align: center;
+
 }
 
 .footer p {
@@ -16,7 +17,7 @@
 }
 
 .left {
-  position: absolute;
+  position: fixed;
   left: 20px;
   bottom: 20px;
   margin: 0;
@@ -24,7 +25,7 @@
 }
 
 .right {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   margin: 0;

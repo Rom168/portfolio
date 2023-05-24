@@ -21,12 +21,20 @@
 
 .foot {
   background-color: #A3232B;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #A3232B;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
 }
 
 
 .push {
   clear: both;
 }
-
 
 
