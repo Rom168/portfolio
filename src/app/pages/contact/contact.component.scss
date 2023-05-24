@@ -8,3 +8,10 @@
 .contact h2 {
   margin-bottom: 10px;
 }
+
+.map-container {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
