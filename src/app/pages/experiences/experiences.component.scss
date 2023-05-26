@@ -17,6 +17,10 @@ button {
   color: #fff; /* couleur de texte lorsque le bouton est activé */
 }
 
+.accordion-button{
+  z-index: 0;
+}
+
 
 .image-container {
   display: flex;
