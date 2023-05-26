@@ -24,8 +24,6 @@ import {FooterComponent} from "./components/footer/footer.component";
 import {MapComponent} from "./components/map/map.component";
 
 
-// Initialize Firebase
-
 @NgModule({
   declarations: [
     AppComponent,
