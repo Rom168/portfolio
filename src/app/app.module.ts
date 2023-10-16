@@ -22,6 +22,8 @@ import {InterestComponent} from "./pages/interest/interest.component";
 import {MatIconModule} from "@angular/material/icon";
 import {FooterComponent} from "./components/footer/footer.component";
 import {MapComponent} from "./components/map/map.component";
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -45,7 +47,8 @@ import {MapComponent} from "./components/map/map.component";
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireStorageModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
