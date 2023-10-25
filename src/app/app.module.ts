@@ -54,7 +54,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'en',
+      defaultLanguage: 'fr',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,

@@ -2,8 +2,8 @@
   "Intro" : {
     "student": "Étudiant ingénieur dans l'informatique",
     "resume": "Je suis actuellement étudiant à Cesi école d’ingénieurs en France, ainsi que développeur backend en apprentissage dans le cadre de ma formation au Cesi. Je suis à la recherche d’un stage de 12 semaines à partir du 15 juillet 2024.\n      Étant apprenti développeur spécialisé dans le domaine des applications mobiles en parallèle de mon apprentissage à l'école, j’ai eu l’occasion de développer de solides compétences en développement. Notamment dans les technologies comme Angular/Ionic, et Firebase.\n      Travailleur et autonome, j’ai pris l’habitude de travailler en équipe dès mon arrivée à l’école Cesi lors de projets communs, mais aussi en entreprise.",
-    "presentation": "Passionné d'informatique depuis min plus jeune âge, j'ai décidé de faire mon premier stage dans ce domaine à l'âge de 14 ans dans la société 8Pix ou je suis maintenant apprenti."
-    "professionnal_Title" : "Mes objectifs professionnel",
+    "presentation": "Passionné d'informatique depuis min plus jeune âge, j'ai décidé de faire mon premier stage dans ce domaine à l'âge de 14 ans dans la société 8Pix ou je suis maintenant apprenti.",
+    "professional_Title": "Mes objectifs personnel",
     "goals" : "Mes objectifs professionnels sont de continuer à améliorer mes compétences en tant que développeur d'applications mobiles et web. À terme, lorsque j'aurai acquis suffisamment d'expérience, j'aimerais devenir chef de projet pour diriger des équipes"
   },
   "Nav" : {
@@ -16,7 +16,46 @@
   },
   "Skills": "Compétences",
   "Education" : {
-    "title": "Parcours scolaire"
-  }
+    "title": "Parcours scolaire",
+    "firstSchool": "Cesi école d'ingénieur , Strasbourg France",
+    "firstDescription": "Etudiant à Cesi école d'ingénieur, cycle ingénieur en apprentissage, spécialité informatique.",
+    "secondDescription": "Etudiant à Cesi école d'ingénieur, cycle préparatoire de 2 ans avant l'entrée en cycle ingénieur.",
+    "highSchool": "Baccalauréat général français",
+    "lastDescription": "Diplomé du Baccalauréat en 2020."
+  },
+  "Experience": {
+    "title": "Expériences professionelles",
+    "firstXp": "Période d'apprentissage",
+    "firstSociety": "Société 8Pix, 2022-: ",
+    "techno": "Technologies : Angular,Ionic, Firebase ",
+    "tasks": "Tâches effectuées : Structuration de base de données Firestore. Création et déploiement de Cloud Functions et implémentation des tests unitaires.\n Développement d'applications mobile Ionic/Angular.",
+    "intern": "Stage",
+    "internSociety": "Stage dans la société 8Pix d'avril à juillet 2022 :",
+    "subject": "Sujet: développement d'applications web et mobile",
+    "job": "Job d'été",
+    "jobDescription": "Job d'été dans la société STAF logistique et transport en juillet 2021 et septembre 2022",
+    "jobTasks": "Tâches effectuées : manutention (préparations de commandes, chargement des remorques etc...) "
 
+  },
+  "Interests": {
+    "title": "Mes centres d'intérêt",
+    "sport": "Sport",
+    "sportDescription" : "Je suis également un sportif passioné, en particulier de basketball.\n            J'ai joué dans une équipe pendant 12 ans et je m'intéresse beaucoup à la NBA.\n     J'aime le sport en général et j'ai commencé la musculation il y a 3 ans.",
+    "musique": "Musique",
+    "musicDescription": "Je fais de la musique depuis l'âge de 6 ans. J'ai commencé avec le piano puis j'ai rapidement basculé pour la guitare.",
+    "computerScience": "L'informatique",
+    "ITDescription": "Passionné d'informatique j'aime faire des petits projets tel que : ",
+    "example1": "La configuration d’OpenMediaVault sur un Raspberry Pi pour la création d’un partage Samba.",
+    "example2": "Divers projets en Python (Hand tracker, jeux 2D).",
+    "example3": "Installation d’un serveur Minecraft sur un Raspberry Pi."
+  },
+  "Contact" : {
+    "title": "Mes informations",
+    "description": "Pour me contacter vous pouvez utiliser les informations ci-dessous :",
+    "email": "Email : romain.huntzinger@viacesi.fr",
+    "phoneNumber": "Numéro de téléphone : +33 6 28 18 74 95",
+    "address": "Adresse : 67100 Strasbourg",
+    "country": "Pays : France"
+
+  }
 }

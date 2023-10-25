@@ -1,6 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { NavigRoutes } from 'src/app/enum/routes';
+import {TranslateService} from "@ngx-translate/core";
 
 
 @Component({
@@ -34,6 +35,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * changelanguage
+   * @param {string} language
+   */
+  changeLanguage(language: string){
+
+  }
 
 }
 

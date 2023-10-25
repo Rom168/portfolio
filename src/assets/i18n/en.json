@@ -15,5 +15,49 @@
     "interests": "Interests",
     "informations": "contact"
   },
-  "Skills": "Skills"
+  "Skills": "Skills",
+  "Education" : {
+    "title": "Education",
+    "firstSchool": "Cesi école d'ingénieur , Strasbourg France",
+    "firstDescription": "Computer Science Student at Cesi école d'ingénieurs, studying software developpement, big data and storage, network and systems etc...\n and preparing a master degree.",
+    "secondDescription": "Student at Cesi école d'ingénieurs, 2-year preparatory cycle before entering the engineering program.",
+    "highSchool": "High school degree in France",
+    "lastDescription": "I graduated from high school in 2020."
+  },
+
+  "Experience": {
+    "title": "Professional experiences",
+    "firstXp": "Work-study period",
+    "firstSociety": "8Pix society, 2022-: ",
+    "techno": "Technologies: Angular,Ionic, Firebase ",
+    "tasks": "Tasks: Structuring of Firestore databases. Creation and deployment\n of cloud functions and implementation of unit tests\n            for the development of mobile applications. Realization of applications\n Ionic/Angular",
+    "intern": "Internship",
+    "internSociety": "Internship in 8Pix society from april to july 2022:",
+    "subject": "Mobile and web applications development",
+    "job": "Summer job",
+    "jobDescription": "Summer job at STAF Logistics and Transport in July 2021 and September 2022",
+    "jobTasks": "Performed tasks such as handling and preparing orders "
+
+  },
+  "Interests": {
+    "title": "My interests",
+    "sport": "Sport",
+    "sportDescription" : "I am passionate about sports, particularly basketball. I used to play in a team for 12 years and I also love watching the NBA. I love sports in general, I enjoy running and riding bike a lot. I started working out 3 yearss ago.",
+    "musique": "Music",
+    "musicDescription": "I have been playing music since I was 5 years old. I started with piano but I quickly switched to the guitar. I practice in a band and by myself.",
+    "computerScience": "Computer science",
+    "ITDescription": "I am passionate about computer science, and I enjoy creating small projects such as: ",
+    "example1": "Setting up OpenMediaVault on a Raspberry Pi for creating a Samba share.",
+    "example2": "Various Python projects (Hand tracker, 2D games).",
+    "example3": "Installing a Minecraft server on a Raspberry Pi."
+  },
+  "Contact" : {
+    "title": "My contact information",
+    "description": "To contact me, you can use the informations below: ",
+    "email": "Email: romain.huntzinger@viacesi.fr",
+    "phoneNumber": "Phone number: +33 6 28 18 74 95",
+    "address": "Adress: 67100 Strasbourg",
+    "country": "Country: France"
+
+  }
 }
