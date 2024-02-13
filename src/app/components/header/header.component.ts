@@ -2,6 +2,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigRoutes } from 'src/app/enum/routes';
 import {TranslateService} from "@ngx-translate/core";
+import {AppComponent} from "../../app.component";
+
 
 
 @Component({
@@ -9,9 +11,6 @@ import {TranslateService} from "@ngx-translate/core";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-
-
-
 
 export class HeaderComponent implements OnInit {
 
@@ -22,7 +21,7 @@ export class HeaderComponent implements OnInit {
   aboutRoute: string ='';
   interestRoute: string ='';
 
-  constructor() {
+  constructor(private translate: TranslateService, private app: AppComponent) {
     this.expRoute = NavigRoutes.Experiences;
     this.contactRoute = NavigRoutes.Contact;
     this.homeRoute = NavigRoutes.Home;
@@ -40,6 +39,10 @@ export class HeaderComponent implements OnInit {
    * @param {string} language
    */
   changeLanguage(language: string){
+    //this.translate.use(language);
+    //this.translate.setDefaultLang(language);
+
+    this.app.useLanguage(language);
 
   }
 
