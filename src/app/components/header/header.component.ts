@@ -21,6 +21,8 @@ export class HeaderComponent implements OnInit {
   aboutRoute: string ='';
   interestRoute: string ='';
 
+  currentLanguage: string ='';
+
   constructor(private translate: TranslateService, private app: AppComponent) {
     this.expRoute = NavigRoutes.Experiences;
     this.contactRoute = NavigRoutes.Contact;
@@ -28,6 +30,8 @@ export class HeaderComponent implements OnInit {
     this.aboutRoute = NavigRoutes.About;
     this.careerRoute = NavigRoutes.Career;
     this.interestRoute = NavigRoutes.Interests;
+
+    this.currentLanguage = app.language;
 
    }
 
@@ -43,7 +47,11 @@ export class HeaderComponent implements OnInit {
     //this.translate.setDefaultLang(language);
 
     this.app.useLanguage(language);
+  }
 
+  get languageButtonText(): string {
+
+    return this.currentLanguage === 'en' ? 'Language' : 'Langue';
   }
 
 }
