@@ -54,6 +54,15 @@ export class HeaderComponent implements OnInit {
     return this.currentLanguage === 'en' ? 'Language' : 'Langue';
   }
 
+  get languageButtonContent(): string {
+    if (this.currentLanguage === 'en') {
+      return '<i class="fas fa-globe"></i> English';
+    } else {
+      return '<i class="fas fa-globe"></i> Français';
+    }
+  }
+
+
 }
 
 
