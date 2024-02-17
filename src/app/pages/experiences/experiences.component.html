@@ -11,14 +11,27 @@
         <div class="accordion-body">
           <strong> <!--Working in 8Pix society :--> {{ 'Experience.firstSociety' | translate}} </strong>
           <li>{{ 'Experience.techno' | translate}}</li>
-          <li>
+          <li>{{'Experience.tasks.title' | translate}}</li>
+          <ul class="sub-tasks">
+            <li>
+              {{ 'Experience.tasks.task1' | translate}}
 
-            {{ 'Experience.tasks' | translate}}
+            </li>
+            <li>
+              {{ 'Experience.tasks.task2' | translate}}
 
-            <!--Tasks : Structuring of Firestore databases. Creation and deployment
-            of cloud functions and implementation of unit tests
-            for the development of mobile applications. Realization of applications
-            Ionic/Angular -->  </li>
+            </li>
+            <li>
+              {{ 'Experience.tasks.task3' | translate}}
+
+            </li>
+            <li>
+              {{ 'Experience.tasks.task4' | translate}}
+
+            </li>
+
+          </ul>
+
           <div class="image-container">
             <img src="assets/8Pix.png">
           </div>
@@ -39,6 +52,11 @@
           </strong>
           <li> {{'Experience.subject' | translate}}</li>
           <li>{{ 'Experience.techno' | translate}}</li>
+
+
+          <div class="image-container">
+            <img src="assets/8Pix.png">
+          </div>
         </div>
       </div>
     </div>

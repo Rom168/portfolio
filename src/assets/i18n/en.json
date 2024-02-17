@@ -4,7 +4,7 @@
     "resume": "Highly motivated upcoming IT engineer. Preparing a master degree doing work-study program and experienced in mobile cross-platform development.\n      Strong/Solid knowledge of Angular, Ionic, HTML, CSS and Typescript. Skilled in backend Firebase API development.\n      Quick and curious learner, team player aiming to confirm his skills and pursue career as a developer.\n      Looking for a 12 weeks international internship starting on July 15 2024.",
     "presentation": "I'm a 21 years old student preparing a master degree on a work-study programm. Passionate about computers since I first used a computer,I decided to do my first internship in the world of development at the age of 14. I have completed various small personnal computer\n    projects out of curiousity and as a hobbys.",
     "professional_Title": "Professional goals",
-    "goals": "My professional goals are to continue improving my skills as a mobile and web application developer. Eventually, when I have enough experience, I would like to become a project manager to lead teams.\""
+    "goals": "My professional goals are to continue improving my skills as a mobile and web application developer. Eventually, when I have enough experience, I would like to become a project manager to lead teams."
   },
 
   "Nav" : {
@@ -24,13 +24,26 @@
     "highSchool": "High school degree in France",
     "lastDescription": "I graduated from high school in 2020."
   },
+  "Language": {
+    "title": "Language skills",
+    "language1": "French: Native language",
+    "level1": "Native language",
+    "language2": "English: B2 level, TOEIC score: 885 (02/01/2024)",
+    "level2": "B2 level, TOEIC score: 885 (02/01/2024)"
+  },
 
   "Experience": {
     "title": "Professional experiences",
     "firstXp": "Work-study period",
     "firstSociety": "8Pix society, 2022-: ",
     "techno": "Technologies: Angular,Ionic, Firebase ",
-    "tasks": "Tasks: Structuring of Firestore databases. Creation and deployment\n of cloud functions and implementation of unit tests\n            for the development of mobile applications. Realization of applications\n Ionic/Angular",
+    "tasks":  {
+      "title": "Tasks:",
+      "task1": "Structuring of Firestore databases.",
+      "task2": "Creation and deployment\n of cloud functions and implementation of unit tests\n for the development of mobile applications.",
+      "task3": "Realization of applications\n Ionic/Angular",
+      "task4": "Using Stripe APIs to integrate payment and subscription systems into applications."
+    },
     "intern": "Internship",
     "internSociety": "Internship in 8Pix society from april to july 2022:",
     "subject": "Mobile and web applications development",

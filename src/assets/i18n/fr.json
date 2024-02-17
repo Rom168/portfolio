@@ -23,12 +23,25 @@
     "highSchool": "Baccalauréat général français",
     "lastDescription": "Diplomé du Baccalauréat en 2020."
   },
+  "Language": {
+    "title": "Language skills",
+    "language1": "Français : langue maternelle",
+    "level1": "Langue maternelle",
+    "language2": "Anglais : Niveau B2, score au TOEIC : 885 (01/02/2024)",
+    "level2": "Niveau B2, score au TOEIC : 885 (01/02/2024)"
+  },
   "Experience": {
     "title": "Expériences professionelles",
     "firstXp": "Période d'apprentissage",
     "firstSociety": "Société 8Pix, 2022-: ",
     "techno": "Technologies : Angular,Ionic, Firebase ",
-    "tasks": "Tâches effectuées : Structuration de base de données Firestore. Création et déploiement de Cloud Functions et implémentation des tests unitaires.\n Développement d'applications mobile Ionic/Angular.",
+    "tasks": {
+      "title": "Tâches effectuées :",
+      "task1": "Structuration de base de données Firestore",
+      "task2": "Création et déploiement de Cloud Functions et implémentation des tests unitaires.",
+      "task3": "Développement d'applications mobile Ionic/Angular.",
+      "task4": "Utilisation des API Stripe pour intégrer des systèmes de paiement et d'abonnement dans des applications."
+    },
     "intern": "Stage",
     "internSociety": "Stage dans la société 8Pix d'avril à juillet 2022 :",
     "subject": "Sujet: développement d'applications web et mobile",
