@@ -1,32 +1,49 @@
-<div class="title">
-  <h1>Portfolio</h1>
+<div class="firstHeader">
+  <div class="title">
+    <h1>Portfolio</h1>
+  </div>
+  <div class="dropdown">
+    <button class="dropButton btn btn-secondary dropdown-toggle"
+            type="button" id="languageDropdown" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"
+            [innerHTML]="languageButtonContent">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+      <a class="dropdown-item" href="#" (click)="changeLanguage('en')">English</a>
+      <a class="dropdown-item" href="#" (click)="changeLanguage('fr')">Français</a>
+    </div>
+  </div>
 </div>
+
 <!--  -->
 <nav class="navbar navbar-expand-lg navbar-light rounded bg-body-tertiary">
   <div class="container-fluid">
-    <a class="nav-link active" class="btn" [routerLink]="homeRoute">Accueil</a>
+    <a class="nav-link active" class="btn" [routerLink]="homeRoute"> {{'Nav.home' | translate}}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item m-2">
-          <a class="nav-link active" class="btn" aria-current="page" [routerLink]="aboutRoute">Compétences</a>
+          <a class="nav-link active" class="btn" aria-current="page" [routerLink]="aboutRoute"> {{'Nav.skills' | translate}}</a>
         </li>
         <li class="nav-item m-2">
-          <a class="nav-link active" class="btn" [routerLink]="careerRoute" >Parcours </a>
+          <a class="nav-link active" class="btn" [routerLink]="careerRoute" >{{'Nav.journey' | translate}} </a>
         </li>
         <li class="nav-item m-2">
-          <a class="nav-link active" class="btn" [routerLink]="expRoute">Expériences</a>
+          <a class="nav-link active" class="btn" [routerLink]="expRoute">{{'Nav.experiences' | translate}}</a>
         </li>
         <li class="nav-item m-2">
-          <a class="nav-link active" class="btn" [routerLink]="interestRoute">Passions</a>
+          <a class="nav-link active" class="btn" [routerLink]="interestRoute">{{'Nav.interests' | translate}}</a>
         </li>
         <li class="nav-item m-2">
-          <a class="nav-link active" class="btn" [routerLink]="contactRoute">Informations</a>
+          <a class="nav-link active" class="btn" [routerLink]="contactRoute">{{'Nav.informations' | translate}}</a>
         </li>
       </ul>
     </div>
+
+
   </div>
 </nav>
 

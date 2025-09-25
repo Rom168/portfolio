@@ -30,3 +30,13 @@ p {
   line-height: 1.5;
   text-align: justify;
 }
+
+
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

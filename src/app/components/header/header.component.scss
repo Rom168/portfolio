@@ -30,3 +30,20 @@ a:hover {
   text-decoration: underline;
 }
 
+
+.firstHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.dropButton {
+  background-color: #A3232B;
+}

@@ -1,6 +1,9 @@
 
 import { Component, OnInit } from '@angular/core';
 import { NavigRoutes } from 'src/app/enum/routes';
+import {TranslateService} from "@ngx-translate/core";
+import {AppComponent} from "../../app.component";
+
 
 
 @Component({
@@ -8,9 +11,6 @@ import { NavigRoutes } from 'src/app/enum/routes';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-
-
-
 
 export class HeaderComponent implements OnInit {
 
@@ -21,7 +21,9 @@ export class HeaderComponent implements OnInit {
   aboutRoute: string ='';
   interestRoute: string ='';
 
-  constructor() {
+  currentLanguage: string ='';
+
+  constructor(private translate: TranslateService, private app: AppComponent) {
     this.expRoute = NavigRoutes.Experiences;
     this.contactRoute = NavigRoutes.Contact;
     this.homeRoute = NavigRoutes.Home;
@@ -29,9 +31,35 @@ export class HeaderComponent implements OnInit {
     this.careerRoute = NavigRoutes.Career;
     this.interestRoute = NavigRoutes.Interests;
 
+    this.currentLanguage = app.language;
+
    }
 
   ngOnInit() {
+  }
+
+  /**
+   * changelanguage
+   * @param {string} language
+   */
+  changeLanguage(language: string){
+    //this.translate.use(language);
+    //this.translate.setDefaultLang(language);
+
+    this.app.useLanguage(language);
+  }
+
+  get languageButtonText(): string {
+
+    return this.currentLanguage === 'en' ? 'Language' : 'Langue';
+  }
+
+  get languageButtonContent(): string {
+    if (this.currentLanguage === 'en') {
+      return '<i class="fas fa-globe"></i> English';
+    } else {
+      return '<i class="fas fa-globe"></i> Français';
+    }
   }
 
 

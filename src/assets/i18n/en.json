@@ -1,1 +1,76 @@
-{}
+{
+  "Intro": {
+    "student": "Computer Science Student",
+    "resume": "Highly motivated upcoming IT engineer. Preparing a master degree doing work-study program and experienced in mobile cross-platform development.\n      Strong/Solid knowledge of Angular, Ionic, HTML, CSS and Typescript. Skilled in backend Firebase API development.\n      Quick and curious learner, team player aiming to confirm his skills and pursue career as a developer.\n      Looking for a 12 weeks international internship starting on July 15 2024.",
+    "presentation": "I'm a 21 years old student preparing a master degree on a work-study programm. Passionate about computers since I first used a computer,I decided to do my first internship in the world of development at the age of 14. I have completed various small personnal computer\n    projects out of curiousity and as a hobbys.",
+    "professional_Title": "Professional goals",
+    "goals": "My professional goals are to continue improving my skills as a mobile and web application developer. Eventually, when I have enough experience, I would like to become a project manager to lead teams."
+  },
+
+  "Nav" : {
+    "home": "Home",
+    "skills": "Skills",
+    "journey": "Education",
+    "experiences": "Experiences",
+    "interests": "Interests",
+    "informations": "contact"
+  },
+  "Skills": "Skills",
+  "Education" : {
+    "title": "Education",
+    "firstSchool": "Cesi école d'ingénieur , Strasbourg France",
+    "firstDescription": "Computer Science Student at Cesi école d'ingénieurs, studying software developpement, big data and storage, network and systems etc...\n and preparing a master degree.",
+    "secondDescription": "Student at Cesi école d'ingénieurs, 2-year preparatory cycle before entering the engineering program.",
+    "highSchool": "High school degree in France",
+    "lastDescription": "I graduated from high school in 2020."
+  },
+  "Language": {
+    "title": "Language skills",
+    "language1": "French: Native language",
+    "level1": "Native language",
+    "language2": "English: B2 level, TOEIC score: 885 (02/01/2024)",
+    "level2": "B2 level, TOEIC score: 885 (02/01/2024)"
+  },
+
+  "Experience": {
+    "title": "Professional experiences",
+    "firstXp": "Work-study period",
+    "firstSociety": "8Pix society, 2022-: ",
+    "techno": "Technologies: Angular,Ionic, Firebase ",
+    "tasks":  {
+      "title": "Tasks:",
+      "task1": "Structuring of Firestore databases.",
+      "task2": "Creation and deployment\n of cloud functions and implementation of unit tests\n for the development of mobile applications.",
+      "task3": "Realization of applications\n Ionic/Angular",
+      "task4": "Using Stripe APIs to integrate payment and subscription systems into applications."
+    },
+    "intern": "Internship",
+    "internSociety": "Internship in 8Pix society from april to july 2022:",
+    "subject": "Mobile and web applications development",
+    "job": "Summer job",
+    "jobDescription": "Summer job at STAF Logistics and Transport in July 2021 and September 2022",
+    "jobTasks": "Performed tasks such as handling and preparing orders "
+
+  },
+  "Interests": {
+    "title": "My interests",
+    "sport": "Sport",
+    "sportDescription" : "I am passionate about sports, particularly basketball. I used to play in a team for 12 years and I also love watching the NBA. I love sports in general, I enjoy running and riding bike a lot. I started working out 3 yearss ago.",
+    "musique": "Music",
+    "musicDescription": "I have been playing music since I was 5 years old. I started with piano but I quickly switched to the guitar. I practice in a band and by myself.",
+    "computerScience": "Computer science",
+    "ITDescription": "I am passionate about computer science, and I enjoy creating small projects such as: ",
+    "example1": "Setting up OpenMediaVault on a Raspberry Pi for creating a Samba share.",
+    "example2": "Various Python projects (Hand tracker, 2D games).",
+    "example3": "Installing a Minecraft server on a Raspberry Pi."
+  },
+  "Contact" : {
+    "title": "My contact information",
+    "description": "To contact me, you can use the informations below: ",
+    "email": "Email: romain.huntzinger@viacesi.fr",
+    "phoneNumber": "Phone number: +33 6 28 18 74 95",
+    "address": "Adress: 67100 Strasbourg",
+    "country": "Country: France"
+
+  }
+}

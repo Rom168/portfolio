@@ -1,24 +1,37 @@
 <div class="exp">
-  <h2> Expériences professionnelles </h2>
+  <h2> {{ 'Experience.title' | translate}} </h2>
   <div class="accordion" id="accordionPanelsStayOpenExample">
     <div class="accordion-item  ">
       <h2 class="accordion-header ">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-          <!--Work-study period --> Période d'apprentissage
+          <!--Work-study period --> {{ 'Experience.firstXp' | translate}}
         </button>
       </h2>
       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
         <div class="accordion-body">
-          <strong> <!--Working in 8Pix society :--> Société 8Pix : </strong>
-          <li>Technologies : Angular,Ionic, Firebase </li>
-          <li>
-            Tâches effectuées : Structuration de base de données Firestore. Création et déploiement de Cloud Functions et implémentation des tests unitaires.
-            Développement d'applications mobile Ionic/Angular.
+          <strong> <!--Working in 8Pix society :--> {{ 'Experience.firstSociety' | translate}} </strong>
+          <li>{{ 'Experience.techno' | translate}}</li>
+          <li>{{'Experience.tasks.title' | translate}}</li>
+          <ul class="sub-tasks">
+            <li>
+              {{ 'Experience.tasks.task1' | translate}}
 
-            <!--Tasks : Structuring of Firestore databases. Creation and deployment
-            of cloud functions and implementation of unit tests
-            for the development of mobile applications. Realization of applications
-            Ionic/Angular -->  </li>
+            </li>
+            <li>
+              {{ 'Experience.tasks.task2' | translate}}
+
+            </li>
+            <li>
+              {{ 'Experience.tasks.task3' | translate}}
+
+            </li>
+            <li>
+              {{ 'Experience.tasks.task4' | translate}}
+
+            </li>
+
+          </ul>
+
           <div class="image-container">
             <img src="assets/8Pix.png">
           </div>
@@ -29,31 +42,38 @@
     <div class="accordion-item ">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-          Stage
+          {{ 'Experience.intern' | translate}}
         </button>
       </h2>
       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
         <div class="accordion-body">
           <strong> <!-- Internship in 8Pix society from april to july 2022:-->
-            Stage dans la société 8Pix d'avril à juillet 2022 :
+            {{'Experience.internSociety'| translate}}
           </strong>
-          <li>Sujet: développement d'applications web et mobile</li>
-          <li>Technologies : Angular/Ionic , Firebase</li>
+          <li> {{'Experience.subject' | translate}}</li>
+          <li>{{ 'Experience.techno' | translate}}</li>
+
+
+          <div class="image-container">
+            <img src="assets/8Pix.png">
+          </div>
         </div>
       </div>
     </div>
     <div class="accordion-item ">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-          Job d'été
+          {{ 'Experience.job' | translate}}
         </button>
       </h2>
       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
         <div class="accordion-body">
           <strong> <!--Summer job at STAF Logistics and Transport in July 2021 and September 2022 -->
-          Job d'été dans la société STAF logistique et transport en juillet 2021 et septembre 2022</strong>
+            {{ 'Experience.jobDescription' | translate}}
+          </strong>
           <li>
-            Tâches effectuées : manutention (préparations de commandes, chargement des remorques etc...)
+
+            {{ 'Experience.jobTasks' | translate}}
             <!--Performed tasks such as handling and preparing orders --></li>
         </div>
       </div>
