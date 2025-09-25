@@ -65,7 +65,8 @@
   "Contact" : {
     "title": "Mes informations",
     "description": "Pour me contacter vous pouvez utiliser les informations ci-dessous :",
-    "email": "Email : romain.huntzinger@viacesi.fr",
+    "titleEmail" : "Email : ",
+    "email": "romain.huntzinger@pm.me",
     "phoneNumber": "Numéro de téléphone : +33 6 28 18 74 95",
     "address": "Adresse : 67100 Strasbourg",
     "country": "Pays : France"
