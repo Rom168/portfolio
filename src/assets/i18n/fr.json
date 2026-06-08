@@ -1,10 +1,10 @@
 {
-  "Intro" : {
-    "student": "Étudiant ingénieur dans l'informatique",
-    "resume": "Je suis actuellement étudiant à Cesi école d’ingénieurs en France, ainsi que développeur backend en apprentissage dans le cadre de ma formation au Cesi. Je suis à la recherche d’un stage de 12 semaines à partir du 15 juillet 2024.\n      Étant apprenti développeur spécialisé dans le domaine des applications mobiles en parallèle de mon apprentissage à l'école, j’ai eu l’occasion de développer de solides compétences en développement. Notamment dans les technologies comme Angular/Ionic, et Firebase.\n      Travailleur et autonome, j’ai pris l’habitude de travailler en équipe dès mon arrivée à l’école Cesi lors de projets communs, mais aussi en entreprise.",
-    "presentation": "Passionné d'informatique depuis mon plus jeune âge, j'ai décidé de faire mon premier stage dans ce domaine à l'âge de 14 ans dans la société 8Pix ou je suis maintenant apprenti.",
-    "professional_Title": "Mes objectifs personnel",
-    "goals" : "Mes objectifs professionnels sont de continuer à améliorer mes compétences en tant que développeur d'applications mobiles et web. À terme, lorsque j'aurai acquis suffisamment d'expérience, j'aimerais devenir chef de projet pour diriger des équipes"
+  "Intro": {
+    "student": "Ingénieur en informatique",
+    "resume": "Je suis ingénieur en informatique diplômé de Cesi École d’ingénieurs, spécialisé dans le développement d’applications web full stack. Au cours de mon parcours, j’ai acquis une solide expérience dans la conception d’applications performantes et évolutives à l’aide de technologies modernes comme Angular, Ionic et Firebase. Actuellement en poste chez Euro Information, je continue d’approfondir mes compétences techniques et à participer à la réalisation de projets web à fort impact au sein du groupe Crédit Mutuel.",
+    "presentation": "Passionné d’informatique depuis mon plus jeune âge, j’ai réalisé mon premier stage à 14 ans dans l’entreprise 8Pix, qui a marqué le début de mon parcours dans le développement logiciel. Depuis, j’ai orienté ma carrière vers la création d’applications en tout genre.",
+    "professional_Title": "Mes objectifs professionnels",
+    "goals": "Mon objectif est aujourd’hui d’asseoir mes compétences en développement full stack et de continuer à évoluer vers un poste de chef de projet, afin de diriger des équipes techniques et de piloter des projets innovants à grande échelle."
   },
   "Nav" : {
     "home": "Accueil",
@@ -18,7 +18,7 @@
   "Education" : {
     "title": "Parcours scolaire",
     "firstSchool": "Cesi école d'ingénieur , Strasbourg France",
-    "firstDescription": "Etudiant à Cesi école d'ingénieur, cycle ingénieur en apprentissage, spécialité informatique.",
+    "firstDescription": "Diplômé du cycle ingénieur en informatique à Cesi École d’Ingénieurs.",
     "secondDescription": "Etudiant à Cesi école d'ingénieur, cycle préparatoire de 2 ans avant l'entrée en cycle ingénieur.",
     "highSchool": "Baccalauréat général français",
     "lastDescription": "Diplomé du Baccalauréat en 2020."
@@ -32,16 +32,35 @@
   },
   "Experience": {
     "title": "Expériences professionelles",
+    "EID_Xp": "Période d'apprentissage et CDI",
+    "Company": "Euro-Information",
+    "technoEID" : "C#, HTML, CSS, SQL, Javascript",
+    "tasksEID" : {
+      "title": "tâches effectuées",
+      "task1": "Développement de fonctionnalités pour une application web (analyse des besoins, développement d’interfaces entre systèmes existants et nouvelles fonctionnalités)",
+      "task2": "Intégration d’interfaces dans un progiciel (évaluation de l’architecture existante, création des maquettes et mise en place de la communication entre la nouvelle interface et les API du nouveau logiciel externe)"
+    },
     "firstXp": "Période d'apprentissage",
-    "firstSociety": "Société 8Pix, 2022-: ",
+    "firstSociety": "Société 8Pix, 2022-2024 : ",
     "techno": "Technologies : Angular,Ionic, Firebase ",
     "tasks": {
       "title": "Tâches effectuées :",
-      "task1": "Structuration de base de données Firestore",
-      "task2": "Création et déploiement de Cloud Functions et implémentation des tests unitaires.",
-      "task3": "Développement d'applications mobile Ionic/Angular.",
-      "task4": "Utilisation des API Stripe pour intégrer des systèmes de paiement et d'abonnement dans des applications."
+      "task1": "Structuration de bases de données NoSQL sur Firebase et déploiement de fonctions Cloud.",
+      "task2": "Mise en œuvre de tests unitaires spécifiquement pour les fonctions Cloud Firebase côté backend afin d’en garantir le bon fonctionnement.",
+      "task3": "Développement d’applications mobiles avec les frameworks Ionic et Angular.",
+      "task4": "Utilisation de l’API Stripe pour intégrer des systèmes de paiement et d’abonnement dans des applications."
     },
+    "stageTrench": "Stage à l'international",
+    "trenchSociety": "Stage de 3 mois à Berlin chez Trench Group de juillet à octobre 2024",
+    "technoTrench": "Angular, Python, Microsoft Azure Cloud",
+    "taskTrench" : {
+      "title" : "Tâches effectuées :",
+      "task1" : "Développement d’une API micro-service avec Flask (Python)",
+      "task2" : "Création d’une application web sous Angular pour la création d’un dashboard de monitoring avec un serveur Express en backend",
+      "task3" : "Sécurisation des accès à l’application avec l’outil d’authentification MSAL de Microsoft en utilisant les utilisateurs d’Azure Cloud."
+    },
+
+
     "intern": "Stage",
     "internSociety": "Stage dans la société 8Pix d'avril à juillet 2022 :",
     "subject": "Sujet: développement d'applications web et mobile",

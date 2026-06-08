@@ -1,10 +1,10 @@
 {
   "Intro": {
-    "student": "Computer Science Student",
-    "resume": "Highly motivated upcoming IT engineer. Preparing a master degree doing work-study program and experienced in mobile cross-platform development.\n      Strong/Solid knowledge of Angular, Ionic, HTML, CSS and Typescript. Skilled in backend Firebase API development.\n      Quick and curious learner, team player aiming to confirm his skills and pursue career as a developer.\n      Looking for a 12 weeks international internship starting on July 15 2024.",
-    "presentation": "I'm a 21 years old student preparing a master degree on a work-study programm. Passionate about computers since I first used a computer,I decided to do my first internship in the world of development at the age of 14. I have completed various small personnal computer\n    projects out of curiousity and as a hobbys.",
-    "professional_Title": "Professional goals",
-    "goals": "My professional goals are to continue improving my skills as a mobile and web application developer. Eventually, when I have enough experience, I would like to become a project manager to lead teams."
+    "student": "Computer Science Engineer",
+    "resume": "I am a computer science engineer specialized in full-stack application development. Over the years, I have gained strong experience designing and building various types of applications — web, mobile, and software — using modern technologies such as Angular, Ionic, Firebase, HTML, CSS, and TypeScript. Currently working at Euro Information (IT subsidiary of Crédit Mutuel), I contribute to ambitious and large-scale web projects that focus on scalability, performance, and maintainability.",
+    "presentation": "Passionate about computers from a young age, I started my first internship at the age of 14 at the company 8Pix, where I discovered the world of software development. Since then, I have pursued this passion through multiple projects and professional experiences, developing multiple kind of applications",
+    "professional_Title": "Professional Goals",
+    "goals": "My current goal is to continue strengthening my technical and architectural skills while broadening my expertise in project management. Ultimately, I aim to become a project manager capable of leading technical teams and driving innovative digital projects from concept to production."
   },
 
   "Nav" : {
@@ -19,7 +19,7 @@
   "Education" : {
     "title": "Education",
     "firstSchool": "Cesi école d'ingénieur , Strasbourg France",
-    "firstDescription": "Computer Science Student at Cesi école d'ingénieurs, studying software developpement, big data and storage, network and systems etc...\n and preparing a master degree.",
+    "firstDescription": "Master's degree in IT engineering ",
     "secondDescription": "Student at Cesi école d'ingénieurs, 2-year preparatory cycle before entering the engineering program.",
     "highSchool": "High school degree in France",
     "lastDescription": "I graduated from high school in 2020."
@@ -34,15 +34,33 @@
 
   "Experience": {
     "title": "Professional experiences",
+    "EID_Xp": "Work study and full time",
+    "Company": "Euro-Information",
+    "technoEID" : "C#, HTML, CSS, SQL, Javascript",
+    "tasksEID" : {
+      "title": "Tasks",
+      "task1": "Implemented new features in a web application, including requirements analysis and development of interfaces between existing systems.",
+      "task2": "Integrated new interfaces into a software package, ensuring seamless communication between core software and new modules."
+    },
+
     "firstXp": "Work-study period",
-    "firstSociety": "8Pix society, 2022-: ",
+    "firstSociety": "8Pix society, 2022-2024 : ",
     "techno": "Technologies: Angular,Ionic, Firebase ",
     "tasks":  {
       "title": "Tasks:",
-      "task1": "Structuring of Firestore databases.",
-      "task2": "Creation and deployment\n of cloud functions and implementation of unit tests\n for the development of mobile applications.",
-      "task3": "Realization of applications\n Ionic/Angular",
-      "task4": "Using Stripe APIs to integrate payment and subscription systems into applications."
+      "task1": "Structured NoSQL Firebase databases and deployed cloud functions.",
+      "task2": "Implemented unit tests specifically for backend Firebase Cloud Functions to ensure correct functionality.",
+      "task3": "Developed mobile applications using Ionic and Angular frameworks",
+      "task4": "Used Stripe APIs to integrate payment and subscription systems into applications."
+    },
+    "stageTrench": "International Internship",
+    "trenchSociety": "3 months internship at Trench Group company in Berlin from July to October 2024",
+    "technoTrench": "Angular, Python, Microsoft Azure Cloud",
+    "taskTrench" : {
+      "title" : "Tasks:",
+      "task1" : "Developed microservice APIs using Flask (python)",
+      "task2" : "Created Angular web applications with Express.js servers, incorporating MSAL for security",
+      "task3" : "Deployed AI-powered chatbots on Azure Cloud using enterprise document indexing for contextual interaction"
     },
     "intern": "Internship",
     "internSociety": "Internship in 8Pix society from april to july 2022:",
