@@ -22,7 +22,7 @@ import {InterestComponent} from "./pages/interest/interest.component";
 import {MatIconModule} from "@angular/material/icon";
 import {FooterComponent} from "./components/footer/footer.component";
 import {MapComponent} from "./components/map/map.component";
-import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {HttpClient, provideHttpClient, withFetch, withInterceptorsFromDi} from "@angular/common/http";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
@@ -30,39 +30,30 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
-@NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    ExperiencesComponent,
-    ContactComponent,
-    HomeComponent,
-    AboutComponent,
-    CareerComponent,
-    InterestComponent,
-    FooterComponent,
-    MapComponent
-
-
-  ],
-  imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireStorageModule,
-    MatIconModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'en',
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HeaderComponent,
+        ExperiencesComponent,
+        ContactComponent,
+        HomeComponent,
+        AboutComponent,
+        CareerComponent,
+        InterestComponent,
+        FooterComponent,
+        MapComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }),
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireStorageModule,
+        MatIconModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'en',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })], providers: [provideHttpClient(withInterceptorsFromDi(), withFetch())] })
 export class AppModule { }
