@@ -1,2 +1,14 @@
+@if (apiLoaded | async) {
+  <google-map
+    height="400px"
+    width="100%"
+    [center]="center"
+    [zoom]="zoom">
 
-<div id="map" class="map-container"></div>
+    <map-marker
+      [position]="markerPosition"
+      [options]="markerOptions">
+    </map-marker>
+
+  </google-map>
+}

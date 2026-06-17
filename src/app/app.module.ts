@@ -26,6 +26,8 @@ import {HttpClient, provideHttpClient, withFetch, withInterceptorsFromDi} from "
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
+import {GoogleMapsModule} from "@angular/google-maps";
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -40,14 +42,16 @@ export function HttpLoaderFactory(http: HttpClient) {
         CareerComponent,
         InterestComponent,
         FooterComponent,
-        MapComponent
+        MapComponent,
     ],
-    bootstrap: [AppComponent], imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    bootstrap: [AppComponent],
+  imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule,
         BrowserAnimationsModule,
         AngularFireModule.initializeApp(firebaseConfig),
         AngularFireStorageModule,
         MatIconModule,
+        GoogleMapsModule,
         TranslateModule.forRoot({
             defaultLanguage: 'en',
             loader: {
@@ -55,5 +59,6 @@ export function HttpLoaderFactory(http: HttpClient) {
                 useFactory: HttpLoaderFactory,
                 deps: [HttpClient]
             }
-        })], providers: [provideHttpClient(withInterceptorsFromDi(), withFetch())] })
+        })],
+  providers: [provideHttpClient(withInterceptorsFromDi(), withFetch())] })
 export class AppModule { }
