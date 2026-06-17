@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component , Inject, PLATFORM_ID} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import {AppServerModule} from "./app.server.module";
+import {isPlatformBrowser} from "@angular/common";
+import {LanguageService} from "./services/language.service";
 
 @Component({
   selector: 'app-root',
@@ -8,17 +11,6 @@ import {TranslateService} from "@ngx-translate/core";
 })
 export class AppComponent {
   title = 'portfolio';
-  language='';
-  constructor(private translate:TranslateService) {
-    this.language = localStorage.getItem('language') || 'fr';
-    this.translate.setDefaultLang(this.language);
-    this.translate.use(this.language);
-  }
 
-  public useLanguage(language: string){
-
-    this.translate.setDefaultLang(language);
-    this.translate.use(language);
-    localStorage.setItem('language', language);
-  }
+  constructor(private languageService: LanguageService) { }
 }
